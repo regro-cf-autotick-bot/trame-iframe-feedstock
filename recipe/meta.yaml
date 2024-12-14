@@ -1,13 +1,13 @@
 {% set name = "trame-iframe" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-iframe-{{ version }}.tar.gz
-  sha256: 0d05b56b22c29ca2476b07d0db310431c375213b06fbadbdb112d4a247a7cb17
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame-iframe-{{ version }}.tar.gz
+  sha256: 308901f989832ebb6b3f12c210a55bce5b7fe9dd1e11040b780e341478ef9707
 
 build:
   noarch: python
